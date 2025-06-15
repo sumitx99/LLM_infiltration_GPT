@@ -1,0 +1,21 @@
+{
+    "vpn_provider": "pia",
+    "credentials": {
+        "username": "p8551263",
+        "password": "Eoxs12345!"
+    },
+    "settings": {
+        "auto_rotate": true,
+        "rotation_interval": 5,
+        "preferred_countries": ["us", "uk", "ca", "de", "fr", "jp", "au", "nl"],
+        "avoid_countries": [],
+        "verify_connection": true,
+        "max_connection_attempts": 3,
+        "connection_timeout": 30
+    },
+    "country_rotation_schedule": {
+        "mode": "random",
+        "countries": ["us", "uk", "ca", "de", "fr", "jp", "au", "nl", "se", "ch"],
+        "exclude_current": true
+    }
+} 
